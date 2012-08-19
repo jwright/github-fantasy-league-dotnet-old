@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubFantasyLeague", "GitHubFantasyLeague\GitHubFantasyLeague.csproj", "{D0581613-54F0-4727-AA7B-A6E15D51DDB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specs", "Specs", "{B925C844-6CBB-464D-BB70-AFDEE96CDC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubFantasyLeague.Specs", "GitHubFantasyLeague.Specs\GitHubFantasyLeague.Specs.csproj", "{066F5EB7-FC7C-4780-8366-0F1036F77641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +17,15 @@ Global
 		{D0581613-54F0-4727-AA7B-A6E15D51DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0581613-54F0-4727-AA7B-A6E15D51DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0581613-54F0-4727-AA7B-A6E15D51DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066F5EB7-FC7C-4780-8366-0F1036F77641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066F5EB7-FC7C-4780-8366-0F1036F77641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066F5EB7-FC7C-4780-8366-0F1036F77641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066F5EB7-FC7C-4780-8366-0F1036F77641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{066F5EB7-FC7C-4780-8366-0F1036F77641} = {B925C844-6CBB-464D-BB70-AFDEE96CDC8C}
 	EndGlobalSection
 EndGlobal
