@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using TechTalk.SpecFlow;
+using GitHubFantasyLeauge.Specs.Support;
 
 namespace GitHubFantasyLeauge.Specs.StepDefinitions
 {
@@ -11,7 +12,7 @@ namespace GitHubFantasyLeauge.Specs.StepDefinitions
         [Given(@"I am on the home page")]
         public void GivenIAmOnTheHomePage()
         {
-            ScenarioContext.Current.Pending();
+            Engine.Current.Browser.GoTo("http://localhost/gh/");
         }
     }
 }
