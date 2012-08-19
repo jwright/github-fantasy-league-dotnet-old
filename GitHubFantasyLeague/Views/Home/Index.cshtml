@@ -1,5 +1,11 @@
-﻿@{
+﻿@using Microsoft.Web.Mvc
+
+@{
     ViewBag.Title = "Index";
+}
+
+@section Head {
+    @Html.Script("scorer.js")
 }
 
 <div class="field">
