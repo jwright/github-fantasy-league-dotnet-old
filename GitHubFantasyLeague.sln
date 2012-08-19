@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubFantasyLeague.Specs",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubFantasyLeague.Model", "GithubFantasyLeague.Model\GithubFantasyLeague.Model.csproj", "{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F9AE16E9-68BC-476D-8F78-68D1E014B698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubFantasyLeague.Model.Tests", "GithubFantasyLeague.Model.Tests\GithubFantasyLeague.Model.Tests.csproj", "{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github", "Github\Github.csproj", "{DB18050C-01B1-4551-9983-A12057567FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.Tests", "Github.Tests\Github.Tests.csproj", "{A99A234F-0D7D-40E8-AC7A-44396F11E1F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +35,25 @@ Global
 		{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB18050C-01B1-4551-9983-A12057567FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB18050C-01B1-4551-9983-A12057567FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB18050C-01B1-4551-9983-A12057567FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB18050C-01B1-4551-9983-A12057567FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99A234F-0D7D-40E8-AC7A-44396F11E1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99A234F-0D7D-40E8-AC7A-44396F11E1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99A234F-0D7D-40E8-AC7A-44396F11E1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99A234F-0D7D-40E8-AC7A-44396F11E1F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{066F5EB7-FC7C-4780-8366-0F1036F77641} = {B925C844-6CBB-464D-BB70-AFDEE96CDC8C}
+		{89AEF3D7-765C-42B6-9170-7A9D90DFB38B} = {F9AE16E9-68BC-476D-8F78-68D1E014B698}
+		{A99A234F-0D7D-40E8-AC7A-44396F11E1F0} = {F9AE16E9-68BC-476D-8F78-68D1E014B698}
 	EndGlobalSection
 EndGlobal

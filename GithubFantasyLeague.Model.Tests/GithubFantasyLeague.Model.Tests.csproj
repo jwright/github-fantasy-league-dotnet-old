@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}</ProjectGuid>
+    <ProjectGuid>{89AEF3D7-765C-42B6-9170-7A9D90DFB38B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GithubFantasyLeague.Model</RootNamespace>
-    <AssemblyName>GithubFantasyLeague.Model</AssemblyName>
+    <RootNamespace>GithubFantasyLeague.Model.Tests</RootNamespace>
+    <AssemblyName>GithubFantasyLeague.Model.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.1.12217, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.1\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,11 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GithubScorer.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="GithubScorerTests.cs" />
+    <Compile Include="UserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GithubFantasyLeague.Model\GithubFantasyLeague.Model.csproj">
+      <Project>{12148FF2-E3F9-4C4D-90FE-52A02E813FD3}</Project>
+      <Name>GithubFantasyLeague.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Github\Github.csproj">
       <Project>{DB18050C-01B1-4551-9983-A12057567FD5}</Project>
       <Name>Github</Name>

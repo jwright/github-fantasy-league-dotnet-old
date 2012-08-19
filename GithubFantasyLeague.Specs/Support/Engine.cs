@@ -27,7 +27,6 @@ namespace GitHubFantasyLeauge.Specs.Support
 
         private Engine()
         {
-            // TODO: Create a simple way to switch from Firefox and IE
             _browser = new IE();
         }
     }
